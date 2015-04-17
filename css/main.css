@@ -13,15 +13,9 @@ body{
 	font-family: 'Oswald', sans-serif;
 }
 
-nav ol{
-	position: relative;
-	list-style-type: none;
-	padding: 0;
-}
-
 nav li{
+	position: relative;
 	text-align: center;
-	width: 25%;
 	display: inline-block;
 	text-decoration: none;
 	font-style: none;
