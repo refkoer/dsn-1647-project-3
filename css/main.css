@@ -13,7 +13,10 @@ body{
 	font-family: 'Oswald', sans-serif;
 }
 
-nav li{
+
+
+
+li{
 	position: relative;
 	text-align: center;
 	display: inline-block;
@@ -51,24 +54,29 @@ figure{
 	padding-right: 12px;
 }
 
-h3{
-	position: absolute;
-	text-align: left;
-	margin: 0;	
-	padding-left: 160px;
-}
 
 img{
 	width: 100%;
+
 }
 
 .smallbanner{
-	clip-path: polygon(0 86%, 68% 86%, 79% 100%, 89% 87%, 100% 87%, 100% 0%, 0% 0%);
+	clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
+
 .food{
 	width: 50%;
 	margin:	0;
 	position: relative;
+	padding: 12px;
+}
+
+h3{
+	position: absolute;
+	text-align: left;
+	margin: 0;
+	padding-left: 150px;
+
 }
 
 .price{
