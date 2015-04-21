@@ -13,7 +13,18 @@ body{
 	font-family: 'Oswald', sans-serif;
 }
 
-
+.bar{
+	position: absolute;
+	width: 10%;
+	z-index: -1
+}
+.barlogo{
+	float: right;
+	width: 10%;
+	top: -50px;
+	z-index: 2;
+	background-color: white;
+}
 
 
 li{
@@ -25,15 +36,24 @@ li{
 	font-size: 1em;
 }
 
+.para{
+	position: relative;
+	font-family: 'bodoni 72', sans-serif;
+	margin: 0;
+	font-style: none;
+	text-align: center;
+	font-size: 16pt;
+}
 
 h1{
 	position: absolute;
 	color: white;
 	text-align: left;
-	padding-left: 12px;
-	padding-bottom: 12;
+	padding-left: 4%;
+	padding-bottom: 15%;
 	margin: 0;
 	font-size: 3em;
+	line-height: 55px;
 }
 
 h2{
@@ -41,45 +61,84 @@ h2{
 	color: white;
 	text-align: left;
 	margin: 0;
-	font-size: 2.5em;
-	padding-left: 12px;
-	padding-top: 120px;
+	font-size: 2em;
+	padding-left: 4%;
+	padding-top: 40%;
 
 }
-
-figure{
-	position: relative;
-	margin: 0;
-	padding-left: 12px;
-	padding-right: 12px;
-}
-
 
 img{
 	width: 100%;
-
+	z-index: 1;
 }
 
-.smallbanner{
-	clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+.food img{
+	width: 50%;
+	z-index: -1;
+	margin-left: -4.7%;
+	margin-bottom: -1.8%;
 }
 
 .food{
-	width: 50%;
-	margin:	0;
+	width: 90%;
+	margin:	0%;
 	position: relative;
-	padding: 12px;
+	padding-left: 4%;
+	background-color: #CE702C;
+	margin: 5%;
+
 }
 
 h3{
+	color: white;
 	position: absolute;
 	text-align: left;
 	margin: 0;
-	padding-left: 150px;
-
+	padding: 10px;
+	margin-right: 90%;
+	padding-left: 55%;
+	z-index: 1;
+	letter-spacing: .5px;
 }
 
 .price{
 	font-size: 0.80em;
 	margin: 0
+}
+.whitebox{
+	position: relative;
+	margin: 0;
+	z-index: 2;
+	top: -40px;
+	padding: 0;
+}
+
+.whitebox-banner{
+	position: relative;
+	margin: 0;
+	z-index: 2;
+	top: -30px;
+	padding: 0;
+}
+
+.whitebox-bottom{
+	position: relative;
+	margin: 0;
+	z-index: 2;
+	bottom: -50px;
+	padding: 0;
+}
+
+footer{
+	top: 25px;
+	width: 100;
+	background-color: #CE702C;
+	position: relative;
+}
+
+.footer-logo{
+	left: 50%;
+	width: 10%;
+	display: block;
+	position: relative;
 }
