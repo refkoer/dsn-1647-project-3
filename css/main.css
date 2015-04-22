@@ -13,39 +13,74 @@ body{
 	font-family: 'Oswald', sans-serif;
 }
 
-.bar{
-	position: absolute;
-	width: 10%;
-	z-index: -1
-}
-.barlogo{
-	float: right;
-	width: 10%;
-	top: -50px;
-	z-index: 2;
-	background-color: white;
+header{
+	background-color: #CE702C;
+	z-index: -5;
+	position: relative;
 }
 
-
-li{
+h1{
 	position: relative;
 	text-align: center;
-	display: inline-block;
-	text-decoration: none;
+	font-size: 15.5px;
+	background-color: #CE702C;
+	margin: 0;
+	top: -20px;
+	z-index: 1;
+}
+
+.main-logo{
+	background-color: #CE702C;
+	width: 110%;
+	position: relative;
+	margin: 0;
+	padding-right: 100px;
+	padding-left: 70px;
+	z-index: 1;
+}
+
+nav a{
 	font-style: none;
+	text-decoration: none;
+	color: white;
+	font-size: 12pt;
+}
+
+nav li{
+	display: inline-block;
+	padding: 8.5px;
+	position: relative;
+}
+
+li:hover{
+  background-color: rgba(81, 34, 0, 0.5);
+}
+
+ul{	
+	position: relative;
+	text-align: center;
+	font-style: none;
+	list-style-type: none;
 	font-size: 1em;
+	margin: 0;
+	padding: 4%;
+	background-color: #CE702C;
+	z-index: 1;
 }
 
 .para{
 	position: relative;
 	font-family: 'bodoni 72', sans-serif;
 	margin: 0;
+	margin-left: 4%;
+	margin-right: 4%;
 	font-style: none;
 	text-align: center;
 	font-size: 16pt;
+	padding: 0;
 }
 
-h1{
+h2{
 	position: absolute;
 	color: white;
 	text-align: left;
@@ -53,10 +88,10 @@ h1{
 	padding-bottom: 15%;
 	margin: 0;
 	font-size: 3em;
-	line-height: 55px;
+	line-height: 58px;
 }
 
-h2{
+h3{
 	position: absolute;
 	color: white;
 	text-align: left;
@@ -86,19 +121,25 @@ img{
 	padding-left: 4%;
 	background-color: #CE702C;
 	margin: 5%;
-
 }
 
-h3{
-	color: white;
+.food-para{
+	text-align: left;
+	margin-left: 4%;
+	margin-right: 4%;
+	position: relative;
+	font-size: 16px;
+}
+
+h4{
 	position: absolute;
 	text-align: left;
 	margin: 0;
-	padding: 10px;
+	padding: 5px;
 	margin-right: 90%;
 	padding-left: 55%;
 	z-index: 1;
-	letter-spacing: .5px;
+	letter-spacing: 2px;
 }
 
 .price{
@@ -109,7 +150,7 @@ h3{
 	position: relative;
 	margin: 0;
 	z-index: 2;
-	top: -40px;
+	top: -30px;
 	padding: 0;
 }
 
@@ -125,20 +166,34 @@ h3{
 	position: relative;
 	margin: 0;
 	z-index: 2;
-	bottom: -50px;
+	bottom: -40px;
 	padding: 0;
 }
 
+.small-logo{
+	width: 20%;
+	position: relative;
+	left: 40%;
+}
+
 footer{
-	top: 25px;
+	top: 100px;
 	width: 100;
 	background-color: #CE702C;
 	position: relative;
 }
 
 .footer-logo{
-	left: 50%;
-	width: 10%;
+	padding: 5%;
+	left: 35%;
+	width: 30%;
 	display: block;
 	position: relative;
+	background-color: #CE702C;
 }
+
+.foot-para{
+	text-align: center;
+	position: relative;
+	font-size: 16px;
+	padding: 20px;
