@@ -31,11 +31,10 @@ h1{
 
 .main-logo{
 	background-color: #CE702C;
-	width: 110%;
+	width: 50%;
 	position: relative;
 	margin: 0;
-	padding-right: 100px;
-	padding-left: 70px;
+	left: 25%;
 	z-index: 1;
 }
 
@@ -49,7 +48,6 @@ nav a{
 nav li{
 	display: inline-block;
 	padding: 8.5px;
-	position: relative;
 }
 
 li:hover{
