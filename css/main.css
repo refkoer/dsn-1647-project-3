@@ -139,6 +139,7 @@ h4{
 }
 
 .price{
+	font-weight: 400;
 	font-size: 0.80em;
 	margin: 0
 }
@@ -187,6 +188,7 @@ footer{
 }
 
 .foot-para{
+	font-weight: 300;
 	text-align: center;
 	position: relative;
 	font-size: 16px;
